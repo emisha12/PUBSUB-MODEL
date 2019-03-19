@@ -1,0 +1,6 @@
+.publisher-wrapper,
+.subscriber-wrapper,
+.unsubscriber-wrapper {
+    padding: 5px;
+    margin: 5px
+}

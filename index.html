@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<script src="PubSubModel.js" defer></script>
+<link rel="stylesheet" href="index.css">
+
+<body style="display: flex; justify-content: space-around;">
+    <h1 style="text-align: center">PUB-SUB MODEL</h1>
+    <div style="border: 2px solid black; width: 600px; ">
+        <div class="publisher-wrapper">
+            Type of content to publish:<input type="text" id="content-type"></input>
+            Content:<input type="text" id="content" />
+            <button class="publish"> publish</button>
+        </div><br>
+        <div class="subscriber-wrapper">
+            Subscribe to:<input type="text" id="subscription-type" />
+            <button class="subscribe">subscribe</button>
+        </div><br>
+        <div class="subscriber-wrapper">
+            Unsubscribe from:<input type="text" id="unsubscribe-content" />
+            <button class="unsubscribe">unsubscribe</button>
+        </div>
+    </div>
+</body>
+
+</html>
